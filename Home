@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Grand Tour News home page</title>
+	<link rel="stylesheet" type="text/css" href="GTN-Style.css" />
+<style type="text/css">
+</style>
+<body>
+	<img src="TopLogo.png" align="absmiddle"; />
+
+			<p id='crtime' onmouseover="style.color='#FF6600'; this.style.cursor='pointer'" onmouseout="style.color='gray'"></p>
+			<div id='linemenu'>
+				<ul>
+					<li><a href='Home page.html'>Home</a></li>
+					<li><a href='giropage.html'>Giro D'Italia</a></li>
+					<li><a href='TDFpage.html'>Tour De France</a></li>
+					<li><a href='vueltapage.html'>Vuelta a Espana</a></li>
+				</ul>
+            <div/>
+		<div id='info'>
+   			 <p> Welcome to the site that has all</p> <p> you need to know about the three</p> <p> Grand Tours. Here you will find news,</p> <p> photos and 							                 everything else. </p><p> This is your go to website for</p><p> everything GIro, Tour and Vuelta!</p>
+             <img id='pic1' src="TDFpic1.jpg" width="330px" alt="Tour De France Peleton" float="right" />
+		<div/>
+        <h2>General News</h2>
+        <div id='mainnews'>
+            	<h3>And all around Alpine Italy for 150 years</h3>
+                <p>The Tour of Italy is the biggest sporting event rooted in the history of the country, a pink wire that connects the boot to 102 years in the name of passion for the sport. This is why the Corsa Rosa was chosen as the official event Nellee celebrations of 150 years of national unity. It joins in Turin for the start, another event that has been the background to the life of our country: the national gathering of the Alpini.</p>
+                <h3>2014 TOUR DE FRANCE: BARCELONA ENTERS THE FRAY</h3>
+                <p>The Mayor of Barcelona, Jordi Hereu, received the organisers this morning to officially submit his city's bid. Barcelona has welcomed the Tour on three occasions, most recently in 2009.</p>
+
+<p>Prior to witnessing the victory of future World Champion Thor Hushovd, the Montjuïc hill was most notably the main venue of the 1992 Olympic Games and the start of the 2005 Dakar Rally. All this makes the city a strong candidate, but it will be facing competition from many foreign communities which have shown interest in organising the Grand Départ, including Scotland, the city of Florence and the Liguria region (Italy), the city of Salzburg and Tyrol (Austria), Utrecht (Netherlands) and Kraków (Poland).</p>
+
+<p>The Grande Boucle will get under way from the Vendée (France) in 2011, following which the Province of Liège (Belgium) will host the Grand Départ in 2012.</p>
+				<h3> SELECTION OF TEAMS FOR THE TOUR DE FRANCE 2011</h3>
+                <p>The organisers of the Tour de France have completed selection of the 22 teams who will set off from the Vendée on Saturday 2nd July.</p>
+
+			<p>The following 18 teams have been selected in compliance with International Cycling Union rules:</p>
+		<div id='teamlist'>
+			<ul>
+				<li>OMEGA PHARMA-LOTTO (BEL)</li>
+				<li>QUICKSTEP CYCLING TEAM (BEL)</li>
+				<li>SAXO BANK SUNGARD (DEN)</li>
+				<li>EUSKALTEL-EUSKADI (ESP)</li>
+				<li>MOVISTAR TEAM (ESP)</li>
+				<li>AG2R LA MONDIALE (FRA)</li>
+				<li>SKY PROCYCLING (GBR)</li>
+				<li>LAMPRE - ISD (ITA)</li>
+				<li>LIQUIGAS-CANNONDALE (ITA)</li>
+				<li>PRO TEAM ASTANA (KAZ)</li>
+				<li>TEAM LEOPARD - TREK (LUX)</li>
+				<li>RABOBANK CYCLING TEAM (HOL)</li>
+				<li>VACANSOLEIL-DCM PRO CYCLING TEAM (HOL)</li>
+				<li>KATUSHA TEAM (RUS)</li>
+				<li>BMC RACING TEAM (USA)</li>
+				<li>HTC-HIGHROAD (USA)</li>
+				<li>TEAM GARMIN-CERVELO (USA)</li>
+				<li>TEAM RADIOSHACK (USA)</li>
+			</ul>
+
+			<p>4 other teams, invited by the organisers, will make up the field for the 98th edition of Le Tour:</p>
+
+			<ul>
+				<li>COFIDIS, LE CREDIT EN LIGNE (FRA)</li>
+				<li>FDJ (FRA)</li>
+				<li>SAUR - SOJASUN (FRA)</li>
+				<li>TEAM EUROPCAR (FRA)</li>
+			</ul>
+		</div><!-- Team list division -->
+        	
+        </div>
+        <img id="pic13" src="2014tourbacalona.jpg" width="160px" />
+</body>
+</html>
