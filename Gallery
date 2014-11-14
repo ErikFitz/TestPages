@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="GTN-Style.css" />
+<style type="text/css">
+
+</style>
+	<script type="text/javascript">
+var c=200; //Starting size
+var maxsize = 500; //Maximum Size
+var minsize = 200; //Minimum Size
+var speed=1; //1: Fastest
+var obj,myzoom;
+
+function zoomMyImages()	{
+	var e = document.getElementsByTagName("img")
+	for (var i=0; i < e.length; i++)	{
+		if (e[i].getAttribute('class')=="growme")	{
+			e[i].setAttribute('onmouseover','zoom(this)');
+			e[i].setAttribute('onmouseout','unzoom(this)');
+			e[i].style.marginLeft=-minsize/2+'px';
+			e[i].style.marginTop=-3*minsize/8+'px';
+			e[i].style.width=minsize+'px';
+			e[i].style.height=3*minsize/4+'px';
+		}
+	}
+}
+window.onload=zoomMyImages;
+
+function zoom(obj) {
+	if(c>maxsize) return
+	obj.style.marginLeft=-c/2+'px';
+	obj.style.marginTop=-3*c/8+'px';
+	obj.style.width=c+'px';
+	obj.style.height=3*c/4+'px';
+	c+=4;
+	myzoom=setTimeout(function(){zoom(obj)},speed);
+}
+function unzoom(obj) {
+	if(c<minsize) return
+	
+	clearTimeout(myzoom);
+	obj.style.marginLeft=-c/2+'px';
+	obj.style.marginTop=-3*c/8+'px';
+	obj.style.width=c+'px';
+	obj.style.height=3*c/4+'px';
+	c=c-4;
+	myzoom=setTimeout(function(){unzoom(obj)},speed);
+}
+</script>
+</head>
+
+<body>
+	<img src="TopLogo.png" align="absmiddle"; />
+
+			<p id='crtime' onmouseover="style.color='#FF6600'; this.style.cursor='pointer'" onmouseout="style.color='gray'"></p>
+			<div id='linemenu'>
+				<ul>
+					<li><a href='Home page.html'>Home</a></li>
+					<li><a href='giropage.html'>Giro D'Italia</a></li>
+					<li><a href='TDFpage.html'>Tour De France</a></li>
+					<li><a href='vueltapage.html'>Vuelta a Espana</a></li>
+				</ul>
+            <div/>
+            <div id='sidemenu1'>
+				<ul>
+					<li><a href='Tournews.html'>News</a></li>
+					<li><a href='TDFroutemap.html'>Route Map</a></li>
+					<li><a href='TDFgallery.html'>Gallery</a></li>
+				</ul>
+            <div/>
+            <h2>Gallery</h2>
+            <div id='wrapper'>
+            	<img id="pic7" src="Rochecobbles.jpg" class="growme" />
+                <img id="pic8" src="TDFpic3.jpg" class="growme" />
+                <img id="pic9" src="Roche-Thomas.jpg" class="growme" />
+                <img id="pic10" src="2008tour.jpg" class="growme" />
+                <img id="pic11" src="tour_de_france_race.jpg" class="growme" />
+                <img id="pic12" src="ROCHEtdf.jpg" class="growme" />
+            </div>
+</body>
+</html>
