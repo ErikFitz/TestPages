@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tour De France</title>
+	<link rel="stylesheet" type="text/css" href="GTN-Style.css" />
+<style type="text/css">
+</style>
+<script type="text/javascript">  
+document.write('<style type="text\/css">#toggle { display: none; }<\/style>');  
+</script>  
+<script type="text/javascript">  
+function switchMenu(obj) {  
+  var el = document.getElementById(obj);  
+  if ( el.style.display != "none" ) {  
+    el.style.display = 'none';  
+  }  
+  else {  
+    el.style.display = 'block';  
+  }  
+}  
+function hide() {  
+  document.getElementById("toggle").style.display='none';  
+}  
+</script>
+</head>
+
+<body>
+	<img src="TopLogo.png" />
+		<p id='crtime' onmouseover="style.color='#FF6600'; this.style.cursor='pointer'" onmouseout="style.color='gray'"></p>
+			<div id='linemenu'>
+				<ul>
+					<li><a href='Home page.html'>Home</a></li>
+					<li><a href='giropage.html'>Giro D'Italia</a></li>
+					<li><a href='TDFpage.html'>Tour De France</a></li>
+					<li><a href='vueltapage.html'>Vuelta a Espana</a></li>
+				</ul>
+            <div/>
+            <div id='sidemenu1'>
+				<ul>
+					<li><a href='Tournews.html'>News</a></li>
+					<li><a href='TDFroutemap.html'>Route Map</a></li>
+					<li><a href='TDFgallery.html'>Gallery</a></li>
+				</ul>
+                <h2> Latest News</h2>
+                <div id="text" onload="hide();">
+			  <a onclick="switchMenu('toggle');" title="2012 TOUR DE FRANCE GRAND DEPART IN LIEGE : A FAMILY HISTORY">2012 TOUR DE FRANCE GRAND DEPART IN LIEGE : A FAMILY HISTORY (Expand/Collapse)</a><br>
+              	<div id	="toggle">
+              <p>Today at 12:00 am, Andre Gilles, President and Provincial representative, and Christian Prudhomme, Director of the Tour de France, have unveiled the details of the Grand Depart of the 2012 Tour de France in Liege. Bernard Hinault, Eddy Merckx, Miguel Indurain, Philippe Gilbert and many famous members of the great family of cycling attended the ceremony.</p>
+
+<p>Things will start on Thursday, June, 28th with the official teams presentation. On Saturday, June, 30th, the Prologue will cover the exact course on which Fabian Cancellera claimed his first victory on the Tour in 2004. Then the bunch will leave Liege on Sunday, July, 1st, toward Seraing for a 180 kilometres explanation which may suit the sprinters. Last act on Monday, July, 2nd. The riders will leave Vise. Destination…</p>
+
+<p>At this time, the 99th will really be launched.</p>
+				</div>
+              	</div>
+                <img id="pic16" src="actu_grandepart_2012.jpg" width="180px" />
+                <img id="pic15" src="Rochecobbles.jpg" width="500px" float="bottom"; />
+</body>
+</html>
