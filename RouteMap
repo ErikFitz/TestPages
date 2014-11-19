@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Route Map</title>
+	<link rel="stylesheet" type="text/css" href="GTN-Style.css" />
+<style type="text/css">
+</style>
+</head>
+
+<body>
+	<img src="TopLogo.png" />
+    	<div id='linemenu'>
+				<ul>
+					<li><a href='Home page.html'>Home</a></li>
+					<li><a href='giropage.html'>Giro D'Italia</a></li>
+					<li><a href='TDFpage.html'>Tour De France</a></li>
+					<li><a href='vueltapage.html'>Vuelta a Espana</a></li>
+				</ul>
+            <div/>
+             <div id='sidemenu1'>
+				<ul>
+					<li><a href='Gironews.html'>News</a></li>
+					<li><a href='Giroroutemap.html'>Route Map</a></li>
+					<li><a href='girogallery.html'>Gallery</a></li>
+				</ul>
+            <div/>
+         <img src="2011Girod-ItaliaMap_2518466.jpg" align="absmiddle" />
+</body>
+</html>
